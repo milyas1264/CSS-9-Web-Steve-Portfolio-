@@ -76,6 +76,10 @@ button{
     
 }
 
+#sec2menu{
+    text-align: center;
+}
+
 #sec2text .s2text{
     width: 50%;
     height: 100px;
@@ -85,15 +89,16 @@ button{
 }
 
 #sec2ul{
-    width: 50%;
+    width: 60%;
     height: 50px;
-    margin-left: 40%;
+    text-align: center;
     background-color: orange;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: 10px;
     margin-top: 40px;
+    margin-left: 25%;
     border-radius: 20px;
     box-shadow: 0  10px 10px black;  
 }
@@ -103,18 +108,26 @@ button{
 
 #sec2images{
     width: 100%;
-    height: auto;
+    height: 400px;
     display: flex;
-    
     justify-content: center;
-    /* align-items: start; */
-    align-content: start;
-    margin-top: 50px;
     flex-wrap: wrap;
+    
+    margin-top: 50px;
+    /* flex-wrap: wrap;position: relative; */
+    
    
 
 }
-#img5{
-    margin-bottom: 20px;
+
+
+/* #img5{
+  position: relative;
+  bottom: 270px;
 }
+#img8{
+  position: relative;
+  bottom: 270px;
+  left: 10px;
+} */
 
