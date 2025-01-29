@@ -15,11 +15,12 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;background-color: aqua;
+    
     
 }
 #logo{
     margin-left: 100px;
+    padding: 10px;
     
 }
 #ulmenu{
@@ -80,16 +81,21 @@ button{
     text-align: center;
 }
 
-#sec2text .s2text{
-    width: 50%;
-    height: 100px;
-    text-align: center;
-    margin: auto;
-   
+#textcontainer{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
 }
 
+
+
 #sec2ul{
-    width: 60%;
+    width: 100%;
     height: 50px;
     text-align: center;
     background-color: orange;
@@ -98,9 +104,12 @@ button{
     align-items: center;
     font-size: 10px;
     margin-top: 40px;
-    margin-left: 25%;
     border-radius: 20px;
     box-shadow: 0  10px 10px black;  
+}
+
+#sec2ul li{
+    text-align: center;
 }
 
 
